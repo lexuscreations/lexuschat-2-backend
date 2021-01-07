@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Public Chatroom" />
+    <meta name="keywords" content="free chatroom" />
+    <meta name="author" content="LokeshVishwakarma" />
+    <meta name="revised" content="lexuscreations.com, 12:33 24-09-2020" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="robot" content="index,follow" />
+    <meta http-equiv="content-language" content="en-US" />
+    <meta name="copyright" content="copyright 2020 lexuscreations.com" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>LexusChat App-2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="icon" href="/media/img/fevicon.ico" type="image/icon">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/loading.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section class="divBack">
+        <div class="loader loadercus l7">
+            <span class="ltc">
+            <h1 contenteditable="true" class="lt">Loading</h1>
+        </span>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="labelClass" for="messageArea">Your Welcome - <span class="userName"></span></label>
+                    <div class="brand">
+                        <img draggable="false" style="cursor: pointer;" class="logoImg" id="logoImg" height="40" src="/media/img/fevicon.ico" alt="">
+                        <span class="logoName">LexusChat</span>
+                    </div>
+                    <textarea id="textarea" rows="3" id="messageArea" placeholder="Write a message..." class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button id="submitBtn" class="btn btn-primary float-right">Send Message</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="typing text-success"></div>
+                <ul class="message__box"></ul>
+            </div>
+        </div>
+        <div class="themeSection" id="themeSection"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/views/layouts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/functions/homeMain.js"></script>
+</body>
+
+</html>

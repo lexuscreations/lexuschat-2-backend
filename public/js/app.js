@@ -6,8 +6,8 @@ let themeOut = "themeDefault",
 
 // valid users
 const validUser = [
-    [WriteYourAccessKeyHear, 'WriteYourUserNameHear'],
-    [WriteYourAccessKeyHear, 'WriteYourUserNameHear']
+    [26111995, 'Mis. Divya'],
+    [26111999, 'Mr. Lokesh']
 ]
 
 // authoncation || user identification || getting user name

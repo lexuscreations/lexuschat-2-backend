@@ -8,3 +8,5 @@
 {"label":"🏷️","level":"info","message":"Server started in 0 minutes 1.48 seconds and running on http://localhost:5000","service":"lexuschat-2_v1","timestamp":"Oct-12-2022 03:30:21"}
 {"label":"🏷️","level":"info","message":"New connection: 0IjDgUnPdDEks6BEAAAB","service":"lexuschat-2_v1","timestamp":"Oct-12-2022 03:30:22"}
 {"label":"🏷️","level":"info","message":"New connection: fnfjspMMKOFL-hWSAAAD","service":"lexuschat-2_v1","timestamp":"Oct-12-2022 03:30:33"}
+{"label":"🏷️","level":"info","message":"Mongodb Connected...!","service":"lexuschat-2_v1","timestamp":"Oct-12-2022 04:03:47"}
+{"label":"🏷️","level":"info","message":"Server started in 0 minutes 8.12 seconds and running on http://localhost:5000","service":"lexuschat-2_v1","timestamp":"Oct-12-2022 04:03:47"}

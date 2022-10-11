@@ -1,109 +1,112 @@
 .divBack {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #ecf0f3;
-    z-index: 1;
-    position: absolute;
-    width: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #ecf0f3;
+  z-index: 1;
+  position: absolute;
+  width: -webkit-fill-available;
 }
 
 .loader {
-    position: relative;
-    margin: 30px;
-    height: 150px;
-    width: 150px;
-    background: #ecf0f3;
-    border-radius: 50%;
-    box-shadow: inset -7px -7px 25px 0px rgba(255, 255, 255, 0.5), inset 7px 7px 25px 0px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin: 30px;
+  height: 150px;
+  width: 150px;
+  background: #ecf0f3;
+  border-radius: 50%;
+  box-shadow: inset -7px -7px 25px 0px rgba(255, 255, 255, 0.5),
+    inset 7px 7px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 .loader::before {
-    content: "";
-    position: absolute;
-    height: 130px;
-    width: 130px;
-    background: #ecf0f3;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    box-shadow: -7px -7px 25px 0px rgba(255, 255, 255, 0.3), 7px 7px 25px 0px rgba(0, 0, 0, 0.9);
+  content: "";
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  background: #ecf0f3;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: -7px -7px 25px 0px rgba(255, 255, 255, 0.3),
+    7px 7px 25px 0px rgba(0, 0, 0, 0.9);
 }
 
 .loader::after {
-    content: "";
-    position: absolute;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  content: "";
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .lt {
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    color: #ecf0f3;
-    text-shadow: -9px -9px 14px #c8c8c8, 9px 9px 14px #939393;
-    caret-color: red;
-    outline: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #ecf0f3;
+  text-shadow: -9px -9px 14px #c8c8c8, 9px 9px 14px #939393;
+  caret-color: red;
+  outline: none;
 }
 
 .ltc {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 80px;
 }
 
 @keyframes rotatel7 {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    25% {
-        transform: translate(-50%, -50%) rotate(90deg);
-    }
-    50% {
-        transform: translate(-50%, -50%) rotate(180deg);
-    }
-    75% {
-        transform: translate(-50%, -50%) rotate(270deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg);
-        border: 15px solid crimson;
-    }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  75% {
+    transform: translate(-50%, -50%) rotate(270deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+    border: 15px solid crimson;
+  }
 }
 
 .l7::after {
-    border: 15px solid limegreen;
-    border-right: solid 15px transparent;
-    border-top: solid 15px transparent;
-    border-left: solid 15px transparent;
-    animation: rotatel7 0.5s infinite linear;
+  border: 15px solid limegreen;
+  border-right: solid 15px transparent;
+  border-top: solid 15px transparent;
+  border-left: solid 15px transparent;
+  animation: rotatel7 0.5s infinite linear;
 }
 
 .loadercus::before {
-    content: "";
-    position: absolute;
-    height: auto;
-    width: 130px;
-    background: #ecf0f3;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    box-shadow: -7px -7px 25px 0px rgba(255, 255, 255, 0.3), 7px 7px 25px 0px rgba(0, 0, 0, 0.9);
+  content: "";
+  position: absolute;
+  height: auto;
+  width: 130px;
+  background: #ecf0f3;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: -7px -7px 25px 0px rgba(255, 255, 255, 0.3),
+    7px 7px 25px 0px rgba(0, 0, 0, 0.9);
 }

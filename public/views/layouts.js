@@ -15,4 +15,4 @@ let themeLayout = `
 <div class='themeSectionHeader'>
 <h1 class='FullScreenHeading'>FullScreen</h1></div>
 <div class='themeDynamicDiv FullScreenBtn'><h4>F11</h4></div>
-`
+`;

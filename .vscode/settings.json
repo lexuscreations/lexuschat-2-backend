@@ -1,0 +1,15 @@
+{
+  "editor.mouseWheelZoom": true,
+  "code-runner.runInTerminal": true,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDelete": true,
+  "window.zoomLevel": -1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast"
+}

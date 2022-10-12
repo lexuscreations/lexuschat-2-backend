@@ -1,3 +1,6 @@
 node_modules
 .env
-extras
+/extras
+yarn.lock
+yarn-error.log
+package-lock.json

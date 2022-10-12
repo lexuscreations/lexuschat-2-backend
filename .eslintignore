@@ -1,0 +1,15 @@
+/.vscode
+node_modules/
+dist
+build
+coverage
+.env
+.eslintrc.json
+.gitignore
+.nvmrc
+nodemon.json
+package.json
+package-lock.json
+README.md
+yarn.lock
+yarn-error.log

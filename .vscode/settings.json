@@ -8,8 +8,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.confirmDelete": true,
-  "window.zoomLevel": -1,
+  "explorer.confirmDelete": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Community Material Theme Palenight High Contrast"
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "editor.fontFamily": "'cascadia code', Consolas, 'Courier New', monospace",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": -1
 }
